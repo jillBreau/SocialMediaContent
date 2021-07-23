@@ -1,6 +1,6 @@
 # A site to showcase social media content I've made through volunteer roles.
 
-**Check it out [here](https://jillbreau.github.io/rebus/ "https://jillbreau.github.io/rebus/")**.<br />
+**Check it out [here](https://jillbreau.github.io/SocialMediaContent/ "https://jillbreau.github.io/SocialMediaContent/")**.<br />
 
 .<br />
 .<br />

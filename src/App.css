@@ -94,7 +94,7 @@ a:last-child button {
 @media screen and (orientation: landscape) {
   .contentContainer {
     margin-top: 120px;
-    margin-bottom: 80px;
+    margin-bottom: 96px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -123,7 +123,7 @@ a:last-child button {
 @media screen and (orientation: portrait) {
   .contentContainer {
     margin-top: 170px;
-    margin-bottom: 80px;
+    margin-bottom: 96px;
     text-align: center;
     display: flex;
     flex-direction: column;

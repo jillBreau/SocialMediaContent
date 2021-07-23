@@ -1,38 +1,215 @@
-.App {
-  text-align: center;
+html {
+  min-height: 100%;
+  position: relative;
+  overflow-y: scroll;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  margin: 0;
+  background-color: rgb(233, 233, 233);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#header {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  background-color: rgb(205, 214, 201);
+  z-index: 1400;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#banner { 
+  padding: 25px 25px 5px 25px;
+  text-align: right;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+#bannerText {
+  margin: 0px;
+  color: rgb(40, 66, 52);
+  text-align: right;
+}
+
+#navBar { 
+  background-color: rgb(114, 114, 114); 
+  width: 100%;
+}
+
+#navBarContent {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+button {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.navBarButton {
+  background-color: transparent;
+  border-width: 2px;
+  border-style: none none none solid;
+  border-color: rgb(225, 213, 226);
+  color: rgb(225, 213, 226);
+  padding: 10px 20px;
+  font-size: 12pt;
+  cursor: pointer;
+  float: left;
+}
+
+.navBarButton:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.navBarButton:hover {
+  background-color: rgb(75, 40, 78);
+}
+
+a:last-child button {
+  border-right: solid 2px;
+}
+
+
+.navBarButtons .activeLink button {
+  background-color: rgb(40, 66, 52);
+}
+
+.navBarButtons .activeLink button:hover {
+  background-color: rgb(75, 40, 78);
+}
+
+@media screen and (orientation: landscape) {
+  .contentContainer {
+    margin-top: 120px;
+    margin-bottom: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    border-radius: 12px;
+    padding: 5px;
+  }
+
+  .caption {
+    text-align: left;
+    max-width: 50%;
+  }
+
+  .media {
+    max-width: 50%;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .contentContainer {
+    margin-top: 170px;
+    margin-bottom: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    border-radius: 12px;
+    padding: 5px;
+  }
+
+  .caption {
+    text-align: left;
+  }
+}
+
+#footer {
+  position: fixed;
+  bottom: 0; 
+  left: 0;
+  width: 100%;
+  padding: 13px;
+  background: rgb(205, 214, 201
+  );
+  z-index: 1400;
+}
+
+#footer .contact-info-container {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0px 20px;
 }
 
-.App-link {
-  color: #61dafb;
+#footer p {
+  color: rgb(40, 66, 52);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footer .contact-info-container a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(40, 66, 52);
+  text-decoration: none;
+}
+
+#footer .contact-info-container a:hover {
+  color: rgb(75, 40, 78);
+}
+
+.styledButton {
+  background-color: rgb(225, 213, 226);
+  border: 2px solid rgb(92, 91, 91);
+  color: rgb(92, 91, 91);
+  padding: 12px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 18px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+#tryAgainButton {
+  margin-right: 0px;
+}
+
+.styledButton:hover {
+  background-color: rgb(92, 91, 91);
+  color: rgb(225, 213, 226);
+}
+
+input[type="text"]
+{
+  margin-top: 18px;
+  font-size:16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  color: rgb(59, 59, 59);
+  border-radius: 4px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  color: rgb(100, 100, 100);
 }

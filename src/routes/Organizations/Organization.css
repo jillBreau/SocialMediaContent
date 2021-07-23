@@ -1,0 +1,29 @@
+#posts {
+	background-color: rgb(179, 185, 182);
+	border: 2px solid rgb(40, 66, 52);
+}
+
+.horizontal {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (orientation: landscape) {
+	.horizontalSometimes {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+	}
+}
+
+@media screen and (orientation: portrait) {
+	.horizontalSometimes {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}

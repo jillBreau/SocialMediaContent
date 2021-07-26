@@ -1,8 +1,3 @@
-#posts {
-	/* background-color: rgb(179, 185, 182); */
-	/* border: 2px solid rgb(40, 66, 52); */
-}
-
 .horizontal {
 	display: flex;
 	flex-direction: row;

@@ -32,10 +32,10 @@ class App extends React.Component {
                             <button className="navBarButton" id="homeButton"><FontAwesomeIcon icon={faHome} /></button>
                           </NavLink>
                           <NavLink activeClassName="activeLink" exact to="/SheConnectsCanada">
-                            <button className="navBarButton" id="SheConnectsCanadaButton">She Connects Canada</button>
+                            <button className="navBarButton" id="SheConnectsCanadaButton">She Connects</button>
                           </NavLink>
                           <NavLink activeClassName="activeLink" exact to="/JackOrgMUN">
-                            <button className="navBarButton" id="JackOrgMUNButton">Jack.org MUN Chapter</button>
+                            <button className="navBarButton" id="JackOrgMUNButton">Jack.org MUN</button>
                           </NavLink>
                         </nav>
                       </div>

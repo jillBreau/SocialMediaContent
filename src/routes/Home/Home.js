@@ -20,10 +20,10 @@ class Home extends React.Component {
           </h3>
           <div className="horizontalSometimes">
             <NavLink activeClassName="activeLink" exact to="/SheConnectsCanada">
-              <button className="styledButton" id="exampleButton">See content for She Connects Canada</button>
+              <button className="styledButton" id="exampleButton">See content for She Connects</button>
             </NavLink>
             <NavLink activeClassName="activeLink" exact to="/JackOrgMUN">
-              <button className="styledButton" id="exampleButton">See content for Jack.org MUN Chapter</button>
+              <button className="styledButton" id="exampleButton">See content for Jack.org MUN</button>
             </NavLink>
           </div>
         </div>

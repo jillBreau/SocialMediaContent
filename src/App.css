@@ -12,6 +12,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  color: rgb(40, 66, 52);
+}
+
+a:hover {
+  color: rgb(75, 40, 78);
+}
+
 #header {
   position: fixed;
   top: 0; 
@@ -22,12 +30,12 @@ body {
 }
 
 #banner { 
-  padding: 25px 25px 5px 25px;
+  padding: 15px 25px 5px 25px;
   text-align: right;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-items: flex-end;
+  /* align-items: flex-start; */
   overflow: hidden;
 }
 
@@ -62,7 +70,7 @@ button {
   border-style: none none none solid;
   border-color: rgb(225, 213, 226);
   color: rgb(225, 213, 226);
-  padding: 10px 20px;
+  padding: 10px 15px;
   font-size: 12pt;
   cursor: pointer;
   float: left;
@@ -93,8 +101,8 @@ a:last-child button {
 
 @media screen and (orientation: landscape) {
   .contentContainer {
-    margin-top: 120px;
-    margin-bottom: 96px;
+    margin-top: 100px;
+    margin-bottom: 60px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -122,8 +130,8 @@ a:last-child button {
 
 @media screen and (orientation: portrait) {
   .contentContainer {
-    margin-top: 170px;
-    margin-bottom: 96px;
+    margin-top: 112px;
+    margin-bottom: 60px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -142,6 +150,13 @@ a:last-child button {
   .caption {
     text-align: left;
   }
+
+  @media screen and (max-width: 329px) {
+    .navBarButton {
+      padding: 10px;
+      font-size: 11pt;
+    }
+  }
 }
 
 #footer {
@@ -149,9 +164,7 @@ a:last-child button {
   bottom: 0; 
   left: 0;
   width: 100%;
-  padding: 13px;
-  background: rgb(205, 214, 201
-  );
+  background: rgb(205, 214, 201);
   z-index: 1400;
 }
 
@@ -169,18 +182,13 @@ a:last-child button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: rgb(40, 66, 52);
   text-decoration: none;
 }
 
-#footer .contact-info-container a:hover {
-  color: rgb(75, 40, 78);
-}
-
 .styledButton {
-  background-color: rgb(225, 213, 226);
-  border: 2px solid rgb(92, 91, 91);
-  color: rgb(92, 91, 91);
+  background-color: rgb(40, 66, 52);
+  border: 2px solid rgb(40, 66, 52);
+  color: rgb(225, 213, 226);
   padding: 12px;
   text-align: center;
   display: inline-block;
@@ -191,25 +199,13 @@ a:last-child button {
   transition-duration: 0.4s;
 }
 
-#tryAgainButton {
-  margin-right: 0px;
-}
-
 .styledButton:hover {
-  background-color: rgb(92, 91, 91);
-  color: rgb(225, 213, 226);
+  background-color: rgb(225, 213, 226);
+  border: 2px solid rgb(75, 40, 78);
+  color: rgb(75, 40, 78);
 }
 
-input[type="text"]
+h1, h2, h3, h4, h5, h6, p
 {
-  margin-top: 18px;
-  font-size:16px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-  color: rgb(59, 59, 59);
-  border-radius: 4px;
-}
-
-h1, h2, h3, h4, h5, h6
-{
-  color: rgb(100, 100, 100);
+  color: rgb(73, 73, 73);
 }

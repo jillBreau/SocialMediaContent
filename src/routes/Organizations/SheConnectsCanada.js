@@ -2,6 +2,8 @@ import React from 'react';
 import Posts from '../../components/Posts';
 import './Organization.css';
 
+import p_6 from '../../images/SheConnectsCanada/SimoneBiles/SimoneBiles.png';
+import p_5 from '../../images/SheConnectsCanada/GetInvolved/GetInvolved.png';
 import p_4_1 from '../../images/SheConnectsCanada/ReadingList/1.png';
 import p_4_2 from '../../images/SheConnectsCanada/ReadingList/2.png';
 import p_4_3 from '../../images/SheConnectsCanada/ReadingList/3.png';
@@ -20,6 +22,49 @@ import p_2_2 from '../../images/SheConnectsCanada/Pride/2.png';
 import p_1 from '../../images/SheConnectsCanada/Leadership/2021-05-15-Leadership-stat.png';
 
 const posts = [
+  {
+    media: [
+      {
+        src: p_6,
+        alt: 'A square graphic by She Connects Canada',
+        video: false
+      },
+    ],
+    postInfo: 
+    <p> 
+      Posted on She Connects Canada's <a href="https://www.instagram.com/sheconnectscanada/" title="She Connects Canada - Instagram"> Instagram</a>{' '}
+      and <a href="https://www.facebook.com/sheconnectscanada" title="She Connects Canada - Facebook">Facebook</a>,
+      August 2021
+    </p>,
+    postCaption: 
+    <p>
+      Many inspiring moments have come out of this summer's Olympic Games and ongoing Paralympic Games. One of our favourites was when @simonebiles showed that sometimes the mark of a true champion is knowing when to take care of yourself. Mental health needs to be a priority for all of us, so we can be our best selves.<br/><br/>
+      (Image description available in alt text feature)<br/><br/>
+      #mentalhealthmatters #mentalhealth #mentalhealthawareness #selfcare #inspiration #quotes
+    </p>
+  },
+  {
+    media: [
+      {
+        src: p_5,
+        alt: 'A square graphic by She Connects Canada',
+        video: false
+      },
+    ],
+    postInfo: 
+    <p> 
+      Posted on She Connects Canada's <a href="https://www.instagram.com/sheconnectscanada/" title="She Connects Canada - Instagram"> Instagram</a>{' '}
+      and <a href="https://www.facebook.com/sheconnectscanada" title="She Connects Canada - Facebook">Facebook</a>,
+      August 2021
+    </p>,
+    postCaption: 
+    <p>
+      There are so many benefits to getting involved in your school, your community, and beyond. Getting involved with different groups and organizations can help you gain confidence, make friends, discover new passions, improve existing skills, help others, and open doors for your future. If you would like to get involved with She Connects as a mentee, follow the link in our bio.<br/><br/>
+      Stay tuned for more back to school tips!<br/><br/>
+      (Image description available in alt text feature)<br/><br/>
+      #backtoschool #student #studentlife
+    </p>
+  },
   {
     media: [
       {
@@ -76,7 +121,7 @@ const posts = [
     postInfo: 
     <p> 
       Posted on She Connects Canada's <a href="https://www.instagram.com/sheconnectscanada/" title="She Connects Canada - Instagram"> Instagram</a>{' '}
-      and <a href="https://www.facebook.com/sheconnectscanada" title="She Connects Canada - Facebook">Facebook</a>{' '},
+      and <a href="https://www.facebook.com/sheconnectscanada" title="She Connects Canada - Facebook">Facebook</a>,
       July 2021
     </p>,
     postCaption:
@@ -119,7 +164,7 @@ const posts = [
     postInfo: 
     <p> 
       Posted on She Connects Canada's <a href="https://www.instagram.com/sheconnectscanada/" title="She Connects Canada - Instagram"> Instagram</a>{' '}
-      and <a href="https://www.facebook.com/sheconnectscanada" title="She Connects Canada - Facebook">Facebook</a>{' '},
+      and <a href="https://www.facebook.com/sheconnectscanada" title="She Connects Canada - Facebook">Facebook</a>,
       July 2021
     </p>,
     postCaption: 

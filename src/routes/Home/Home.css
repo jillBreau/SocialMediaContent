@@ -1,4 +1,8 @@
-#definition {
+#summary {
 	width: 85%;
 	margin:auto;
+}
+
+#navToOrgButton {
+	margin-top: 28px;
 }

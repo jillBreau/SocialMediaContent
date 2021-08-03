@@ -38,7 +38,7 @@ const posts = [
     </p>,
     postCaption: 
     <p>
-      Many inspiring moments have come out of this summer's Olympic Games and ongoing Paralympic Games. One of our favourites was when @simonebiles showed that sometimes the mark of a true champion is knowing when to take care of yourself. Mental health needs to be a priority for all of us, so we can be our best selves.<br/><br/>
+      Many inspiring moments have come out of this summer's Olympic Games and ongoing Paralympic Games. One of our favourites was when @simonebiles showed that sometimes the mark of a true champion is knowing how to take care of yourself and set boundaries. Mental health needs to be a priority for all of us, so we can be our best selves.<br/><br/>
       (Image description available in alt text feature)<br/><br/>
       #mentalhealthmatters #mentalhealth #mentalhealthawareness #selfcare #inspiration #quotes
     </p>
@@ -59,7 +59,7 @@ const posts = [
     </p>,
     postCaption: 
     <p>
-      There are so many benefits to getting involved in your school, your community, and beyond. Getting involved with different groups and organizations can help you gain confidence, make friends, discover new passions, improve existing skills, help others, and open doors for your future. If you would like to get involved with She Connects as a mentee, follow the link in our bio.<br/><br/>
+      There are so many benefits to getting involved in your school, your community, and beyond. Getting involved with different groups and organizations can help you gain confidence, make friends, discover new passions, improve existing skills, help others, and open doors for your future. If you would like to get involved with She Connects as a mentee, you can learn more on our website and at our virtual Launch Event on September 12th.<br/><br/>
       Stay tuned for more back to school tips!<br/><br/>
       (Image description available in alt text feature)<br/><br/>
       #backtoschool #student #studentlife

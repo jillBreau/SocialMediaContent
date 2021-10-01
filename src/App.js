@@ -12,6 +12,7 @@ import { faHome } from '@fortawesome/free-solid-svg-icons'
 import Home from './routes/Home/Home';
 import SheConnectsCanada from './routes/Organizations/SheConnectsCanada';
 import JackOrgMUN from './routes/Organizations/JackOrgMUN';
+import DigitalArt from './routes/Organizations/DigitalArt';
 import './App.css';
 
 class App extends React.Component {
@@ -22,7 +23,7 @@ class App extends React.Component {
         <div >
           <div id="header">
               <div id="banner">
-                  <h3 id="bannerText">Social media content by Jillian Breau.</h3>
+                  <h3 id="bannerText">Digital media content by Jillian Breau.</h3>
               </div>
               <div id="navBar">
                   <div id="navBarContent">
@@ -37,6 +38,9 @@ class App extends React.Component {
                           <NavLink activeClassName="activeLink" exact to="/JackOrgMUN">
                             <button className="navBarButton" id="JackOrgMUNButton">Jack.org MUN</button>
                           </NavLink>
+                          <NavLink activeClassName="activeLink" exact to="/DigitalArt">
+                            <button className="navBarButton" id="DigitalArtButton">Digital Art</button>
+                          </NavLink>
                         </nav>
                       </div>
                   </div>
@@ -46,6 +50,7 @@ class App extends React.Component {
           <Switch>
             <Route path="/SheConnectsCanada" component={SheConnectsCanada} />
             <Route path="/JackOrgMUN" component={JackOrgMUN} />
+            <Route path="/DigitalArt" component={DigitalArt} />
             <Route path="/" component={Home} />
           </Switch>
         </div>

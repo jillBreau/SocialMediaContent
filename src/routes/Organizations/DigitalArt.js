@@ -16,12 +16,12 @@ const posts = [
     media: [
       {
         src: p_1,
-        alt: 'A digital media drawing',
+        alt: 'A digital media drawing', 
         video: false
       },
       {
         src: p_2,
-        alt: 'A digital media drawing',
+        alt: 'A digital media drawing', 
         video: false
       },
       {

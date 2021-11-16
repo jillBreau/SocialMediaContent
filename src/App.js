@@ -23,7 +23,7 @@ class App extends React.Component {
         <div >
           <div id="header">
               <div id="banner">
-                  <h3 id="bannerText">Digital media content by Jillian Breau.</h3>
+                  <h3 id="bannerText">Social media content by Jillian Breau.</h3>
               </div>
               <div id="navBar">
                   <div id="navBarContent">
@@ -38,9 +38,9 @@ class App extends React.Component {
                           <NavLink activeClassName="activeLink" exact to="/JackOrgMUN">
                             <button className="navBarButton" id="JackOrgMUNButton">Jack.org MUN</button>
                           </NavLink>
-                          <NavLink activeClassName="activeLink" exact to="/DigitalArt">
+                          {/* <NavLink activeClassName="activeLink" exact to="/DigitalArt">
                             <button className="navBarButton" id="DigitalArtButton">Digital Art</button>
-                          </NavLink>
+                          </NavLink> */}
                         </nav>
                       </div>
                   </div>

@@ -2,6 +2,13 @@ import React from 'react';
 import Posts from '../../components/Posts';
 import './Organization.css';
 
+import p_7_1 from '../../images/SheConnectsCanada/SpotifyWrapped2021/1.png';
+import p_7_2 from '../../images/SheConnectsCanada/SpotifyWrapped2021/2.png';
+import p_7_3 from '../../images/SheConnectsCanada/SpotifyWrapped2021/3.png';
+import p_7_4 from '../../images/SheConnectsCanada/SpotifyWrapped2021/4.png';
+import p_7_5 from '../../images/SheConnectsCanada/SpotifyWrapped2021/5.png';
+import p_7_6 from '../../images/SheConnectsCanada/SpotifyWrapped2021/6.png';
+import p_7_7 from '../../images/SheConnectsCanada/SpotifyWrapped2021/7.png';
 import p_6 from '../../images/SheConnectsCanada/SimoneBiles/SimoneBiles.png';
 import p_5 from '../../images/SheConnectsCanada/GetInvolved/GetInvolved.png';
 import p_4_1 from '../../images/SheConnectsCanada/ReadingList/1.png';
@@ -22,6 +29,60 @@ import p_2_2 from '../../images/SheConnectsCanada/Pride/2.png';
 import p_1 from '../../images/SheConnectsCanada/Leadership/2021-05-15-Leadership-stat.png';
 
 const posts = [
+  {
+    media: [
+      {
+        src: p_7_1,
+        alt: 'A square graphic by She Connects Canada',
+        video: false
+      },
+      {
+        src: p_7_2,
+        alt: 'A square graphic by She Connects Canada',
+        video: false
+      },
+      {
+        src: p_7_3,
+        alt: 'A square graphic by She Connects Canada',
+        video: false
+      },
+      {
+        src: p_7_4,
+        alt: 'A square graphic by She Connects Canada',
+        video: false
+      },
+      {
+        src: p_7_5,
+        alt: 'A square graphic by She Connects Canada',
+        video: false
+      },
+      {
+        src: p_7_6,
+        alt: 'A square graphic by She Connects Canada',
+        video: false
+      },
+      {
+        src: p_7_7,
+        alt: 'A square graphic by She Connects Canada',
+        video: false
+      },
+    ],
+    postInfo: 
+    <p> 
+      Posted on She Connects Canada's <a href="https://www.instagram.com/sheconnectscanada/" title="She Connects Canada - Instagram"> Instagram</a>{' '}
+      and <a href="https://www.facebook.com/sheconnectscanada" title="She Connects Canada - Facebook">Facebook</a>,
+      December 2021
+    </p>,
+    postCaption: 
+    <p>
+      It’s that time of year! We’re so excited to see the stats for the first year of our mentorship program.
+      From recruiting our fantastic mentees and mentors, to hosting our official launch event,
+      to registering as a nonprofit organization, 2021 has been busy.<br/><br/>
+      We can’t wait to see what we’ll accomplish next!<br/><br/>
+      #spotifywrapped #spotifywrapped2021 #mentorship<br/><br/>
+      (Image descriptions available in alt text feature)
+    </p>
+  },
   {
     media: [
       {
